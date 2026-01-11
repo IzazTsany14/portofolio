@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izaz Tsany - Software Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="Portfolio Izaz Tsany, mahasiswa S1 Informatika UNESA yang berfokus pada Software Engineering.">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="logo" onclick="scrollToSection('home')">
+        <span class="code-bracket">&lt;</span>IT<span class="code-bracket">/&gt;</span>
+      </div>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#skills" class="nav-link">Keterampilan</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+        <div class="theme-switch">
+          <input type="checkbox" id="theme-toggle">
+          <label for="theme-toggle" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+        <div class="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="reveal-text">Izaz Tsany</h1>
+            <h2 class="subtitle reveal-text">Mahasiswa S1 Informatika UNESA </h2>
+            <p class="tagline reveal-text">"Belajar untuk membangun solusi digital yang impactful."</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn primary-btn">Lihat Proyek</a>
+              <a href="#contact" class="btn secondary-btn">Hubungi Saya</a>
+            </div>
+            <div class="social-icons">
+              <a href="https://github.com/IzazTsany14" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/izaz-tsany-ab4609331/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/sani_rsmawan/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="izazsr15@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="gambar/WhatsApp Image 2025-05-20 at 09.53.44_35ae6bad.jpg" alt="Izaz Tsany">
+            <div class="shape-bg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about">
+          <span class="mouse">
+            <span class="wheel"></span>
+          </span>
+          <span class="arrow">
+            <i class="fas fa-chevron-down"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Tentang Saya</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="gambar/WhatsApp Image 2025-05-20 at 09.53.44_35ae6bad.jpg" alt="Izaz Tsany">
+            <div class="edu-badge">
+              <i class="fas fa-graduation-cap"></i>
+              <span>UNESA Informatika</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Hello! Saya <span class="highlight">Izaz Tsany</span></h3>
+            <p>Saya adalah mahasiswa semester 4 prodi S1 Informatika UNESA (PSDKU Kampus 5) yang berfokus pada <strong>Software Engineering</strong>. Memiliki ketertarikan dalam pengembangan aplikasi, algoritma, dan teknologi terkini. Aktif belajar pemrograman melalui proyek mandiri dan kolaborasi.</p>
+            <p>Saya mencari kesempatan untuk mengembangkan kemampuan dalam bidang software engineering dan berkontribusi dalam proyek-proyek inovatif.</p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="highlight-text">
+                  <h4>Pemrograman</h4>
+                  <p>Java, Python, JavaScript</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="highlight-text">
+                  <h4>Development</h4>
+                  <p>Web, Desktop, CLI</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fas fa-sitemap"></i>
+                </div>
+                <div class="highlight-text">
+                  <h4>Algoritma & DSA</h4>
+                  <p>Struktur Data, OOP</p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn primary-btn download-btn"><i class="fas fa-download"></i> Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Proyek</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <!-- Project cards will be added dynamically with JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Keterampilan</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-tabs">
+          <button class="skill-tab active" data-category="all">Semua</button>
+          <button class="skill-tab" data-category="language">Bahasa</button>
+          <button class="skill-tab" data-category="tool">Tools</button>
+          <button class="skill-tab" data-category="concept">Konsep</button>
+        </div>
+        <div class="skills-container">
+          <!-- Skill bars will be added dynamically with JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>Kontak</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Lokasi</h3>
+                <p>Ponorogo, Jawa Timur, Indonesia</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>izazsr15@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Pendidikan</h3>
+                <p>Universitas Negeri Surabaya</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/IzazTsany14" target="_blank" class="social-link github">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/" target="_blank" class="social-link linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://instagram.com/" target="_blank" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:example@example.com" class="social-link email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Kirim Pesan</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                <label for="name">Nama Lengkap</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="email">Email</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" placeholder="Subjek" required>
+                <label for="subject">Subjek</label>
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" placeholder="Pesan" required></textarea>
+                <label for="message">Pesan</label>
+              </div>
+              <button type="submit" class="btn primary-btn submit-btn">
+                <span class="btn-text">Kirim Pesan</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="copyright">
+        <p>&copy; 2025 Izaz Tsany. </p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
