@@ -20,7 +20,7 @@ The portfolio highlights the journey of Izaz Tsany Rismawan, a software develope
 
 ## 🖥️ Live Preview
 You can access the live version of my portfolio here:
-[IzazTsany14 Portfolio](https://github.com/IzazTsany14/portofolio)
+[IzazTsany14 Portfolio] (https://portofolio-izaz.netlify.app/)
 
 ## 📂 File Overview
 ```plaintext
