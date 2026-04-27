@@ -1,4 +1,4 @@
-# Izaz Tsany's Portfolio
+# Izaz Tsany Rismawan Portfolio
 
 Welcome to my personal portfolio! This repository contains the code for my portfolio website that showcases my skills, projects, and contact information. The site is designed for an engaging and interactive user experience.
 
